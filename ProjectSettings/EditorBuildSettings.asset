@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RestClient/Scenes/RestClientSimpleGetAndPost.unity
     guid: 24c26732f5ed4479d933f1b00b167ad6
+  - enabled: 1
+    path: Assets/ok.unity
+    guid: bd222cf155038b743b935bb7a614d0a8
   m_configObjects: {}

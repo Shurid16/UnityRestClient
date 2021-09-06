@@ -20,9 +20,9 @@ public class RestClientGetAndPostExample : MonoBehaviour
         };
 
         // send a post request
-        StartCoroutine(RestWebClient.Instance.HttpPost($"{baseUrl}api/values", 
+        /*StartCoroutine(RestWebClient.Instance.HttpPost($"{baseUrl}api/values", 
         JsonUtility.ToJson(new Player { FullName = "John Doe" }), 
-            (r) => OnRequestComplete(r), new List<RequestHeader> { header } ));
+            (r) => OnRequestComplete(r), new List<RequestHeader> { header } ));*/
     }
 
     void OnRequestComplete(Response response)

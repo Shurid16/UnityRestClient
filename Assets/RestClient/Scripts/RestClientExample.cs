@@ -51,11 +51,11 @@ public class RestClientExample : MonoBehaviour
         ImageUrl imageUrl = new ImageUrl { Url = imageToOCR };
         
         // send a post request
-        StartCoroutine(RestWebClient.Instance.HttpPost(baseUrl, JsonUtility.ToJson(imageUrl), (r) => OnRequestComplete(r), new List<RequestHeader> 
+        /*StartCoroutine(RestWebClient.Instance.HttpPost(baseUrl, JsonUtility.ToJson(imageUrl), (r) => OnRequestComplete(r), new List<RequestHeader> 
         {
             clientSecurityHeader,
             contentTypeHeader
-        }));
+        }));*/
     }
 
     void OnRequestComplete(Response response)

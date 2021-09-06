@@ -11,6 +11,7 @@ namespace RestClient.Core.Models
 
         public string Data { get; set; }  
 
-        public Dictionary<string, string> Headers {get; set;} 
+        public Dictionary<string, string> Headers {get; set;}
+        
     }
 }
